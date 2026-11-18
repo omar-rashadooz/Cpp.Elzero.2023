@@ -1,0 +1,18 @@
+<<<<< let us learn C++ >>>>>
+
+01- ctrl + / or ظ = comment;
+
+02- we can out more by "cout << 1 << 2 << 3 << 4 ;"
+
+03- age.cpp is my frist C++ app in course
+
+04- \\ >> to print \
+05- \n >> to make a new line
+06- \" >> to print "
+07- \' >> to print '
+08- \t >> to make tab space
+09- \b >> to make a backspace
+10- \r >> start from first and overwrite
+11- Don't forget \ skip all things after here 
+
+12- 
