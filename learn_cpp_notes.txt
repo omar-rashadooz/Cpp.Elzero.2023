@@ -13,6 +13,36 @@
 08- \t >> to make tab space
 09- \b >> to make a backspace
 10- \r >> start from first and overwrite
-11- Don't forget \ skip all things after here 
+11- Don't forget \ skip all things after here
 
-12- 
+12- ASCII is the number of character
+13- int()  >> output ASCII
+14- char() >> output character
+
+15- short int = 2 Byte
+16- long int  = 4 Byte
+17- long long int = 8 Byte
+18- signed = +, -, 0
+19- unsigned = only +
+20- to Alias(Nick name) for Data type >>> " using the_nick_name = the_type; "
+... and you can use this nick_name in your code as a the_type
+21- you can also use " typedef the_type the_nick_name; " to make Alias
+
+22- pre "--/++" before the value  >> ++num >> 1
+23- post "--/++" after the value  >> num-- >> 0
+
+24- one line condition >> (if condition ? in ture : else);
+
+25- switch only apper a int and characters
+26- switch(variable)
+    {
+        case num: =if/else if
+        default: =else
+    }
+
+27- array format >>>> type name[num] = {a, b, c, d};
+28- you don't need to type the number of items and the compilar with set it
+
+29- for memory location write "&" before the item
+
+30- 2D array >>>> type name[rows][columns] = {{}, {}, {}}
