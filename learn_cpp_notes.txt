@@ -45,4 +45,8 @@
 
 29- for memory location write "&" before the item
 
-30- 2D array >>>> type name[rows][columns] = {{}, {}, {}}
+30- 2D array >>>> type name[rows][items_of_array] = {{}, {}, {}}
+31- in modern C++ program the best way to make array is with vectores(this way is best to brovied the Bugs):
+... array <type_of_data , size_of_array> name_of_array = { , , , ,}; >>>> don't forget to #include <array> lib;
+
+32- 
