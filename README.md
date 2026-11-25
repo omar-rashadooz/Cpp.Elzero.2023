@@ -3,7 +3,7 @@
 
 This repository have all my C++ learn files
 
-if you want to try any files from this follow steps:
+if you want to try any files from this follow steps in your terminal:
 
 **Step1 :** check you are have the C++ compiler in your OS by:
 ```
