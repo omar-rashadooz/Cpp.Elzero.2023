@@ -8,8 +8,13 @@ int main()
     cout << "== Guess the numbers program ==\n";
     cout << "===============================\n";
 
+    int Q=10;
     int points =0;
-    double answers[10];
+    double answers[Q];
+
+    cout << "Enter the number of Questions you want(1~10):";
+    cin >> Q;
+    cout << "===============================\n";
     
     cout << "Guess the number in ?? place !!\n";
 
@@ -28,7 +33,7 @@ int main()
     };
 
     //loop to out the Questions for player
-    for(int i=0; i<10 ; i++)
+    for(int i=0; i<Q ; i++)
     {
        cout <<endl<<"Q"<<i+1<<" = "<<nums[i][0]<<" | "<<nums[i][1]<<" | "<<nums[i][2]<<
        " | "<<nums[i][3]<<" | "<< "??"<< endl<<"A : ";
@@ -36,7 +41,7 @@ int main()
     }
 
     //loop to check answers of player
-    for (int i=0; i<10 ; i++)
+    for (int i=0; i<Q ; i++)
     {    
         if( answers[i] == nums[i][4])
             points++;
@@ -46,7 +51,7 @@ int main()
     cout << "===============================\n";
     cout << "===>>> Finished The Game <<<===\n";
     cout << "===============================\n";
-    cout << "===> Your points is " << points << " / 10 <===\n";
+    cout << "===>> Your points is " << points << "/"<<Q<<" <<===\n";
     cout << "===============================\n";
     
     return 0;
